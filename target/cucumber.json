@@ -1,0 +1,58 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Verify login page display",
+        "description": "",
+        "id": "test-case-example;verify-login-page-display",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3556584700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "open application url",
+            "match": {
+              "location": "C_Stepdefinition.open_application_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 250883700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click on loginlink",
+            "match": {
+              "location": "C_Stepdefinition.click_on_loginlink()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5236027200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "verify login page display",
+            "match": {
+              "location": "C_Stepdefinition.verify_login_page_display()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test case example",
+    "description": "",
+    "id": "test-case-example",
+    "keyword": "Feature",
+    "uri": "C-FeatureFile.feature"
+  }
+]
